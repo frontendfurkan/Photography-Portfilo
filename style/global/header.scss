@@ -1,0 +1,126 @@
+@import '../config/variables.scss';
+
+Header {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    background-color: $color-bg;
+    .Header {
+        position: relative;
+        @media screen and (min-width:768px) {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            z-index: 500;
+        }
+        .container {
+            display: flex;
+            position: relative;
+            width: 100%;
+        }
+        &-logo {
+            height: 100%;
+            img {
+                width: 56px;
+                height: 54.133px;
+                @media screen and (min-width: 768px) {
+                    width: 36px;
+                    height: 34.8px;
+                }
+            }
+        }
+        &-button {
+            position: relative;
+            width: 24px;
+            height: 18px;
+            background-color: transparent;
+            margin-left: auto;
+            align-self: center;
+            cursor: pointer;
+            @media screen and (min-width: 768px) {
+                display: none;
+            }
+            &-line1 {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                display: block;
+                height: 2px;
+                background-color: rgb(75, 75, 75);
+                border-radius: 2px;
+            }
+            &-line2 {
+                position: absolute;
+                top: 8px;
+                width: 100%;
+                display: block;
+                height: 2px;
+                background-color: rgb(75, 75, 75);
+                border-radius: 2px;
+            }
+            &-line3 {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                display: block;
+                height: 2px;
+                background-color: rgb(75, 75, 75);
+                border-radius: 2px;
+            }
+        }
+    
+        &-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: auto;
+            padding: 24px 16px;
+            background-color: $color-bg;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100px;
+            opacity: 0;
+            transform: translateX(100%);
+            transition: 0.2s;
+            pointer-events: none;
+            direction: rtl;
+            z-index: 1;
+            @media screen and (min-width: 768px) {
+                opacity: 1;
+                transform: translateX(0);
+                position: static;
+                pointer-events: all;
+                margin-left: auto;
+                direction: ltr;
+                padding: 0;
+                justify-content: center;
+            }
+            ul {
+                @media screen and (min-width: 768px) {
+                    display: flex;
+                    flex-direction: row;
+                }
+                li {
+                    margin-bottom: 30px;
+                    @media screen and (min-width: 768px) {
+                        margin-left: 50px;
+                        margin-bottom: 0;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                        text-underline-offset: 7px;
+                    }
+                }
+            }
+            
+        }
+        .show {
+            opacity: 1;
+            transform: translateX(0);
+            pointer-events: auto;
+        }
+    }
+}
+
+

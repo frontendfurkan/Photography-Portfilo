@@ -1,0 +1,64 @@
+@import '../config/variables.scss';
+
+.Footer {
+    position: relative;
+    top: 102.33px;
+    background-color: $color-header;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .container {
+        @media screen and (min-width: 768px) {
+            display: flex;
+            padding-top: 75px;
+            padding-bottom: 75px;
+        }
+    }
+
+    &-header {
+        h3 {
+            font-family: $font-header;
+            font-size: 32px;
+            line-height: 38.4px;
+            color: $color-bg;
+            @media screen and (min-width: 768px) {
+                font-size: 48px;
+            }
+        }
+    }
+
+    &-social {
+        margin-top: 30px;
+        @media screen and (min-width: 768px) {
+            margin-top: 0;
+            margin-left: 100px;
+        }
+        .icon {
+            color: $color-bg;
+            width: 20px;
+            height: 20px;
+        }
+        a + a {
+            margin-left: 50px;
+        }
+    }
+
+    &-contact {
+        margin-top: 30px;
+        @media screen and (min-width: 768px) {
+            margin-top: 0;
+            margin-left: auto;
+        }
+        a {
+            color: $color-bg;
+            font-size: 18px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            text-underline-offset: 8px;
+        }
+    }
+}

@@ -1,0 +1,696 @@
+@import '../config/variables.scss';
+
+main {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.Homepage {
+    position: relative;
+    top: 102.33px;
+    @media screen and (min-width: 768px) {
+        height: 1500px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-image {
+        direction: rtl;
+        img {
+            width: 50%;
+            height: auto;
+            object-fit: cover;
+            @media screen and (min-width: 768px) {
+                width: 30%;
+            }
+        }
+    }
+
+    &-header {
+            font-size: 90px;
+            font-family: $font-header;
+            font-weight: normal;
+            color: $color-header;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            &-subheader1 {
+                display: none;
+            }
+            &-subheader2 {
+                display: none;
+            }
+            @media screen and (min-width: 768px) {
+                font-size: 220px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                bottom: 225px;               
+                &-subheader1 {
+                    display: block;
+                    font-size: 48px;
+                    color: $color-subheader;
+                    margin-left: 30px;
+                }
+                &-subheader2 {
+                    display: block;
+                    font-size: 48px;
+                    color: $color-subheader;
+                    margin-right: 30px;
+                }
+                &-photography {
+                    position: relative;
+                    bottom: 138px;
+                    right: 95px;
+                }
+
+            }
+    }
+
+    &-subimage {
+        width: 100%;
+        @media screen and (min-width: 768px) {
+            position: relative;
+            bottom: 520px;
+            left: 104px;
+            width: 85%;
+            z-index: -1;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &-subheader {
+        margin-top: 60px;
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+        h2 {
+            font-family: $font-header;
+            color: $color-subheader;
+            font-size: 32px;
+        }
+        &-second {
+            display: inline-block;
+            margin-left: 23%;
+        }
+
+    }
+
+    &-square {
+        direction: rtl;
+        margin-top: 20px;        
+        @media screen and (min-width: 768px) {
+            order: 2;
+            margin-left: 40px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    &-paragraph {
+        margin-top: 20px;
+        p {
+            line-height: 28.8px;
+        }
+    }
+
+    &-social {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        @media screen and (min-width: 768px) {
+            margin-left: 180px;
+        }
+        .icon {
+            color: $color-subheader;
+            width: 20px;
+            height: 20px;
+        }
+        .icon:hover {
+            color: $color-subheader-hover;
+            transition: 0.4s;
+        }
+
+        a + a {
+            margin-left: 50px;
+        }
+    }
+}
+
+.Snowboard {
+    position: relative;
+    top: 102.33px;
+    background-color: $color-bg2;
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .container {
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 900px;
+        }
+    }
+
+    &-number {
+        font-family: $font-header;
+        font-size: 72px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        color: $color-header;
+        @media screen and (min-width: 768px) {
+            font-size: 220px;
+            line-height: 220px;
+            position: absolute;
+            right: 0;
+            top: 40px;
+            z-index: 1;
+        }
+    }
+
+    &-image {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            @media screen and (min-width: 768px) {
+                width: 700px;
+                height: 630px;
+                position: relative;
+                top: 55px;
+                left: 390px;
+            }
+        }
+    }
+
+    &-header {
+        font-size: 54px;
+        font-family: $font-header;
+        color: $color-header;
+        margin-top: 70px;
+        line-height: 72px;
+        @media screen and (min-width: 768px) {
+            z-index: 2;
+            position: absolute;
+            left: 0;
+            top: 0;
+            h2 {
+                font-size: 220px;
+                font-weight: normal;
+                line-height: 220px;
+            }
+        }
+        &-second {
+            display: block;
+        }
+    }
+
+    &-paragraph {
+        line-height: 28.8px;
+        margin-top: 30px;
+        @media screen and (min-width: 768px) {
+            margin-top: 0;
+            width: 60%;
+            margin-left: 210px;
+        }
+    }
+
+    &-link {
+        margin-top: 15px;
+        @media screen and (min-width: 768px) {
+            order: -1;
+            margin-right: auto;
+            margin-top: 0;
+        }
+        a {
+            font-size: 32px;
+            font-family: $font-header;
+            color: $color-subheader;
+            @media screen and (min-width: 768px) {
+                font-size: 48px;
+            }
+        }
+        a:hover {
+            color: $color-subheadaer-darkhover;
+        }
+
+    }
+
+    &-square {
+        margin-top: 60px;
+        @media screen and (min-width: 768px) {
+            width: 4%;
+            margin-top: 0;
+            margin-left: auto;
+        }      
+    }
+}
+
+.Surfing{
+    position: relative;
+    top: 102.33px;
+    background-color: $color-bg;
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        min-height: 790px;
+        padding-bottom: 100px;
+    }
+
+    .container {
+        @media screen and (min-width: 768px) {
+            padding-top: 100px;
+        }
+    }
+
+    &-number {
+        font-family: $font-header;
+        font-size: 72px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        color: $color-header;
+        @media screen and (min-width: 768px) {
+            font-size: 220px;
+            line-height: 220px;
+            font-weight: normal;
+            z-index: 2;
+            position: relative;
+        }
+    }
+
+    &-image {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            @media screen and (min-width: 768px) {
+                width: 600px;
+                height: 500px;
+                position: absolute;
+                top: 0;
+                left: 112px;
+                margin-top: 100px;
+            }
+        }
+    }
+
+    &-header {
+        font-size: 54px;
+        font-family: $font-header;
+        color: $color-header;
+        margin-top: 70px;
+        line-height: 72px;
+        @media screen and (min-width: 768px) {
+            position: relative;
+            left: 617px;
+            bottom: 150px;
+            z-index: 1;
+            h2 {
+                font-size: 220px;
+                line-height: 220px;
+                font-weight: normal;
+            }
+        }
+    }
+
+    &-paragraph {
+        line-height: 28.8px;
+        margin-top: 30px;
+        @media screen and (min-width: 768px) {
+            margin-left: 95px;
+            width: 50%;
+        }
+    }
+
+    &-link {
+        margin-top: 15px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            right: 0;
+            bottom: 40px;
+        }
+        a {
+            font-size: 32px;
+            font-family: $font-header;
+            color: $color-subheader;
+            @media screen and (min-width: 768px) {
+                font-size: 48px;
+            }
+        }
+        a:hover {
+            color: $color-subheadaer-darkhover;
+        }
+
+    }
+
+    &-square {        
+        margin-top: 60px;
+        @media screen and (min-width: 768px) {
+            width: 4%;
+            position: absolute;
+            right: 15px;
+            top: 0;
+            margin-top: 100px;
+        }        
+    }
+}
+
+.BMX {
+    position: relative;
+    top: 102.33px;
+    background-color: $color-bg2;
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        min-height: 790px;
+    }
+
+    &-number {
+        font-family: $font-header;
+        font-size: 72px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        color: $color-header;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 220px;
+        }
+    }
+
+    &-image {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            @media screen and (min-width: 768px) {
+                width: 600px;
+                height: 500px;
+                object-fit: cover;
+                position: absolute;
+                right: 200px;
+                top: 0;
+            }
+        }
+    }
+
+    &-header {
+        font-size: 54px;
+        font-family: $font-header;
+        color: $color-header;
+        margin-top: 70px;
+        line-height: 72px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            left: 60px;
+            top: 30%;
+            bottom: 20%;
+            h2 {
+                font-size: 220px;
+                line-height: 220px;
+                font-weight: normal;
+            }
+        }
+    }
+
+    &-paragraph {
+        line-height: 28.8px;
+        margin-top: 30px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            bottom: 0;
+            left: 33%;
+            right: 18%;
+        }
+    }
+
+    &-link {
+        margin-top: 15px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            left: 60px;
+            bottom: 80px;
+
+        }
+        a {
+            font-size: 32px;
+            font-family: $font-header;
+            color: $color-subheader;
+            @media screen and (min-width: 768px) {
+                font-size: 48px;
+            }
+        }
+        a:hover {
+            color: $color-subheadaer-darkhover;
+        }
+
+    }
+
+    &-square {        
+        margin-top: 60px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }    
+    }
+}
+
+.Skateboard {
+    position: relative;
+    top: 102.33px;
+    background-color: $color-bg;
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        min-height: 1000px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+
+    &-number {
+        font-family: $font-header;
+        font-size: 72px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        color: $color-header;
+        @media screen and (min-width: 768px) {
+            font-size: 220px;
+            line-height: 220px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+    }
+
+    &-image {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            @media screen and (min-width: 768px) {
+                width: 700px;
+                height: 500px;
+                object-fit: cover;
+                position: absolute;
+                right: 0;
+                top: 50px;
+            }
+        }
+    }
+
+    &-header {
+        font-size: 54px;
+        font-family: $font-header;
+        color: $color-header;
+        margin-top: 70px;
+        line-height: 72px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            left: 60px;
+            top: 240px;
+            h2 {
+                font-size: 220px;
+                line-height: 220px;
+                font-weight: normal;
+            }
+        }
+        &-second {
+            display: block;
+        }
+    }
+
+    &-paragraph {
+        line-height: 28.8px;
+        margin-top: 30px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            left: 60px;
+            bottom: 0;
+            width: 710px;
+        }
+    }
+
+    &-link {
+        margin-top: 15px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        a {
+            font-size: 32px;
+            font-family: $font-header;
+            color: $color-subheader;
+            @media screen and (min-width: 768px) {
+                font-size: 48px;
+            }
+        }
+        a:hover {
+            color: $color-subheadaer-darkhover;
+        }
+
+    }
+
+    &-square {    
+        margin-top: 60px; 
+        @media screen and (min-width: 768px) {
+            width: 4%;
+            position: absolute;
+            bottom: 120px;
+            right: 0;
+        }     
+    }
+}
+
+.WorkWithMe {
+    position: relative;
+    top: 102.33px;
+    background-color: $color-bg2;
+    @media screen and (min-width: 768px) {
+        width: 100%;
+        min-height: 900px;
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    &-image {
+        width: 75%;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            top: 70px;
+            left: 100px;
+
+        }
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            @media screen and (min-width: 768px) {
+                width: 500px;
+                height: 640px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &-header {
+        font-size: 54px;
+        font-family: $font-header;
+        color: $color-header;
+        margin-top: 70px;
+        line-height: 72px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            top: 0;
+            left: 45%;
+            right: 5%;
+            margin-top: 0;
+            h2 {
+                font-size: 220px;
+                line-height: 220px;
+                font-weight: normal;
+            }
+            &-second {
+                display: block;
+            }
+            &-third {
+                position: absolute;
+                right: 20px;
+                bottom: 0;
+            }
+        }
+    }
+
+    &-paragraph {
+        line-height: 28.8px;
+        margin-top: 30px;
+        @media screen and (min-width: 768px) {
+            position: absolute;
+            right: 80px;
+            bottom: 120px;
+            width: 325px;
+
+        }
+    }
+
+    &-link {
+        margin-top: 15px;
+        @media screen and (min-width: 768px) {
+            margin-top: 0;
+            position: absolute;
+            bottom: 0;
+            right: 250px;
+        }
+        a {
+            font-size: 32px;
+            font-family: $font-header;
+            color: $color-subheader;
+            @media screen and (min-width: 768px) {
+                font-size: 48px;
+            }
+        }
+        a:hover {
+            color: $color-subheadaer-darkhover;
+        }
+
+    }
+
+    &-square {
+        margin-top: 60px;
+        @media screen and (min-width: 768px) {
+            width: 4%;
+            position: absolute;
+            right: 80px;
+            bottom: 0;
+        }
+    }
+}
+}

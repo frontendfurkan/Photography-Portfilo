@@ -1,0 +1,92 @@
+@import "../config/variables.scss";
+
+body {
+    box-sizing: border-box;
+    font-family: $font-general;
+    background-color: $color-bg;
+    color: $color-font;
+    height: 2000px;
+}
+
+.container {
+    max-width: $max-width;
+    width: 100%;
+    padding: 24px 16px;
+    position: relative;
+    @media screen and (min-width: 768px) {
+        overflow: hidden;
+    }
+    
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+  a {
+      color: $color-font;
+  }
+
+.square {
+    display: inline-block;
+    width: 7%;
+    height: auto;
+    @media screen and (min-width: 768px) {
+        width: 100%;
+    }
+}
+
+.flex-jamie {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        position: relative;
+        right: 100px;
+    }
+}
+
+.flex-maslinger {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 70px;
+    }
+}
+
+.flex-subheader {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        position: relative;
+        bottom: 480px;
+        left: 105px;
+    }
+}
+
+.flex-snowboard-first {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+.flex-snowboard-second  {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        position: relative;
+        width: 100%;
+        top: 100px;
+    }
+}
+
+
+
+
+

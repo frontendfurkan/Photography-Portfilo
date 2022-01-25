@@ -1,0 +1,83 @@
+.Footer {
+  position: relative;
+  top: 102.33px;
+  background-color: #1a1a1a;
+}
+
+@media screen and (min-width: 768px) {
+  .Footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+.Footer-header h3 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #f0f0f0;
+}
+
+@media screen and (min-width: 768px) {
+  .Footer-header h3 {
+    font-size: 48px;
+  }
+}
+
+.Footer-social {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .Footer-social {
+    margin-top: 0;
+    margin-left: 100px;
+  }
+}
+
+.Footer-social .icon {
+  color: #f0f0f0;
+  width: 20px;
+  height: 20px;
+}
+
+.Footer-social a + a {
+  margin-left: 50px;
+}
+
+.Footer-contact {
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .Footer-contact {
+    margin-top: 0;
+    margin-left: auto;
+  }
+}
+
+.Footer-contact a {
+  color: #f0f0f0;
+  font-size: 18px;
+}
+
+.Footer-contact a:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+/*# sourceMappingURL=footer.css.map */

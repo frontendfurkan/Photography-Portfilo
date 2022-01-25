@@ -1,0 +1,111 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open-Sans", sans-serif;
+  background-color: #f0f0f0;
+  color: #4b4b4b;
+  height: 2000px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 24px 16px;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    overflow: hidden;
+  }
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+a {
+  color: #4b4b4b;
+}
+
+.square {
+  display: inline-block;
+  width: 7%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .square {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flex-jamie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    right: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flex-maslinger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    bottom: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flex-subheader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    bottom: 480px;
+    left: 105px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flex-snowboard-first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flex-snowboard-second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 100px;
+  }
+}
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,918 @@
+@media screen and (min-width: 768px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+main .Homepage {
+  position: relative;
+  top: 102.33px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Homepage {
+    height: 1500px;
+  }
+}
+
+main .Homepage .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .Homepage-image {
+  direction: rtl;
+}
+
+main .Homepage-image img {
+  width: 50%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  main .Homepage-image img {
+    width: 30%;
+  }
+}
+
+main .Homepage-header {
+  font-size: 90px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  color: #1a1a1a;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+main .Homepage-header-subheader1 {
+  display: none;
+}
+
+main .Homepage-header-subheader2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  main .Homepage-header {
+    font-size: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    bottom: 225px;
+  }
+  main .Homepage-header-subheader1 {
+    display: block;
+    font-size: 48px;
+    color: #9cb4b3;
+    margin-left: 30px;
+  }
+  main .Homepage-header-subheader2 {
+    display: block;
+    font-size: 48px;
+    color: #9cb4b3;
+    margin-right: 30px;
+  }
+  main .Homepage-header-photography {
+    position: relative;
+    bottom: 138px;
+    right: 95px;
+  }
+}
+
+main .Homepage-subimage {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  main .Homepage-subimage {
+    position: relative;
+    bottom: 520px;
+    left: 104px;
+    width: 85%;
+    z-index: -1;
+  }
+}
+
+main .Homepage-subimage img {
+  width: 100%;
+  height: auto;
+}
+
+main .Homepage-subheader {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Homepage-subheader {
+    display: none;
+  }
+}
+
+main .Homepage-subheader h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #9cb4b3;
+  font-size: 32px;
+}
+
+main .Homepage-subheader-second {
+  display: inline-block;
+  margin-left: 23%;
+}
+
+main .Homepage-square {
+  direction: rtl;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Homepage-square {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 40px;
+  }
+  main .Homepage-square img {
+    width: 100%;
+  }
+}
+
+main .Homepage-paragraph {
+  margin-top: 20px;
+}
+
+main .Homepage-paragraph p {
+  line-height: 28.8px;
+}
+
+main .Homepage-social {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  main .Homepage-social {
+    margin-left: 180px;
+  }
+}
+
+main .Homepage-social .icon {
+  color: #9cb4b3;
+  width: 20px;
+  height: 20px;
+}
+
+main .Homepage-social .icon:hover {
+  color: #b0bec7;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+main .Homepage-social a + a {
+  margin-left: 50px;
+}
+
+main .Snowboard {
+  position: relative;
+  top: 102.33px;
+  background-color: gainsboro;
+}
+
+@media screen and (min-width: 768px) {
+  main .Snowboard {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main .Snowboard .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 900px;
+  }
+}
+
+main .Snowboard-number {
+  font-family: "Bebas Neue", cursive;
+  font-size: 72px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: #1a1a1a;
+}
+
+@media screen and (min-width: 768px) {
+  main .Snowboard-number {
+    font-size: 220px;
+    line-height: 220px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    z-index: 1;
+  }
+}
+
+main .Snowboard-image {
+  width: 100%;
+}
+
+main .Snowboard-image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  main .Snowboard-image img {
+    width: 700px;
+    height: 630px;
+    position: relative;
+    top: 55px;
+    left: 390px;
+  }
+}
+
+main .Snowboard-header {
+  font-size: 54px;
+  font-family: "Bebas Neue", cursive;
+  color: #1a1a1a;
+  margin-top: 70px;
+  line-height: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Snowboard-header {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  main .Snowboard-header h2 {
+    font-size: 220px;
+    font-weight: normal;
+    line-height: 220px;
+  }
+}
+
+main .Snowboard-header-second {
+  display: block;
+}
+
+main .Snowboard-paragraph {
+  line-height: 28.8px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Snowboard-paragraph {
+    margin-top: 0;
+    width: 60%;
+    margin-left: 210px;
+  }
+}
+
+main .Snowboard-link {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Snowboard-link {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-right: auto;
+    margin-top: 0;
+  }
+}
+
+main .Snowboard-link a {
+  font-size: 32px;
+  font-family: "Bebas Neue", cursive;
+  color: #9cb4b3;
+}
+
+@media screen and (min-width: 768px) {
+  main .Snowboard-link a {
+    font-size: 48px;
+  }
+}
+
+main .Snowboard-link a:hover {
+  color: #88a09f;
+}
+
+main .Snowboard-square {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Snowboard-square {
+    width: 4%;
+    margin-top: 0;
+    margin-left: auto;
+  }
+}
+
+main .Surfing {
+  position: relative;
+  top: 102.33px;
+  background-color: #f0f0f0;
+}
+
+@media screen and (min-width: 768px) {
+  main .Surfing {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 790px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main .Surfing .container {
+    padding-top: 100px;
+  }
+}
+
+main .Surfing-number {
+  font-family: "Bebas Neue", cursive;
+  font-size: 72px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: #1a1a1a;
+}
+
+@media screen and (min-width: 768px) {
+  main .Surfing-number {
+    font-size: 220px;
+    line-height: 220px;
+    font-weight: normal;
+    z-index: 2;
+    position: relative;
+  }
+}
+
+main .Surfing-image {
+  width: 100%;
+}
+
+main .Surfing-image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  main .Surfing-image img {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 112px;
+    margin-top: 100px;
+  }
+}
+
+main .Surfing-header {
+  font-size: 54px;
+  font-family: "Bebas Neue", cursive;
+  color: #1a1a1a;
+  margin-top: 70px;
+  line-height: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Surfing-header {
+    position: relative;
+    left: 617px;
+    bottom: 150px;
+    z-index: 1;
+  }
+  main .Surfing-header h2 {
+    font-size: 220px;
+    line-height: 220px;
+    font-weight: normal;
+  }
+}
+
+main .Surfing-paragraph {
+  line-height: 28.8px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Surfing-paragraph {
+    margin-left: 95px;
+    width: 50%;
+  }
+}
+
+main .Surfing-link {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Surfing-link {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+  }
+}
+
+main .Surfing-link a {
+  font-size: 32px;
+  font-family: "Bebas Neue", cursive;
+  color: #9cb4b3;
+}
+
+@media screen and (min-width: 768px) {
+  main .Surfing-link a {
+    font-size: 48px;
+  }
+}
+
+main .Surfing-link a:hover {
+  color: #88a09f;
+}
+
+main .Surfing-square {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Surfing-square {
+    width: 4%;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    margin-top: 100px;
+  }
+}
+
+main .BMX {
+  position: relative;
+  top: 102.33px;
+  background-color: gainsboro;
+}
+
+@media screen and (min-width: 768px) {
+  main .BMX {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: 790px;
+  }
+}
+
+main .BMX-number {
+  font-family: "Bebas Neue", cursive;
+  font-size: 72px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: #1a1a1a;
+}
+
+@media screen and (min-width: 768px) {
+  main .BMX-number {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 220px;
+  }
+}
+
+main .BMX-image {
+  width: 100%;
+}
+
+main .BMX-image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  main .BMX-image img {
+    width: 600px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    right: 200px;
+    top: 0;
+  }
+}
+
+main .BMX-header {
+  font-size: 54px;
+  font-family: "Bebas Neue", cursive;
+  color: #1a1a1a;
+  margin-top: 70px;
+  line-height: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  main .BMX-header {
+    position: absolute;
+    left: 60px;
+    top: 30%;
+    bottom: 20%;
+  }
+  main .BMX-header h2 {
+    font-size: 220px;
+    line-height: 220px;
+    font-weight: normal;
+  }
+}
+
+main .BMX-paragraph {
+  line-height: 28.8px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  main .BMX-paragraph {
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    right: 18%;
+  }
+}
+
+main .BMX-link {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  main .BMX-link {
+    position: absolute;
+    left: 60px;
+    bottom: 80px;
+  }
+}
+
+main .BMX-link a {
+  font-size: 32px;
+  font-family: "Bebas Neue", cursive;
+  color: #9cb4b3;
+}
+
+@media screen and (min-width: 768px) {
+  main .BMX-link a {
+    font-size: 48px;
+  }
+}
+
+main .BMX-link a:hover {
+  color: #88a09f;
+}
+
+main .BMX-square {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  main .BMX-square {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+main .Skateboard {
+  position: relative;
+  top: 102.33px;
+  background-color: #f0f0f0;
+}
+
+@media screen and (min-width: 768px) {
+  main .Skateboard {
+    width: 100%;
+    min-height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+}
+
+main .Skateboard-number {
+  font-family: "Bebas Neue", cursive;
+  font-size: 72px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  color: #1a1a1a;
+}
+
+@media screen and (min-width: 768px) {
+  main .Skateboard-number {
+    font-size: 220px;
+    line-height: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+}
+
+main .Skateboard-image {
+  width: 100%;
+}
+
+main .Skateboard-image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  main .Skateboard-image img {
+    width: 700px;
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 50px;
+  }
+}
+
+main .Skateboard-header {
+  font-size: 54px;
+  font-family: "Bebas Neue", cursive;
+  color: #1a1a1a;
+  margin-top: 70px;
+  line-height: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Skateboard-header {
+    position: absolute;
+    left: 60px;
+    top: 240px;
+  }
+  main .Skateboard-header h2 {
+    font-size: 220px;
+    line-height: 220px;
+    font-weight: normal;
+  }
+}
+
+main .Skateboard-header-second {
+  display: block;
+}
+
+main .Skateboard-paragraph {
+  line-height: 28.8px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Skateboard-paragraph {
+    position: absolute;
+    left: 60px;
+    bottom: 0;
+    width: 710px;
+  }
+}
+
+main .Skateboard-link {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Skateboard-link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+main .Skateboard-link a {
+  font-size: 32px;
+  font-family: "Bebas Neue", cursive;
+  color: #9cb4b3;
+}
+
+@media screen and (min-width: 768px) {
+  main .Skateboard-link a {
+    font-size: 48px;
+  }
+}
+
+main .Skateboard-link a:hover {
+  color: #88a09f;
+}
+
+main .Skateboard-square {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  main .Skateboard-square {
+    width: 4%;
+    position: absolute;
+    bottom: 120px;
+    right: 0;
+  }
+}
+
+main .WorkWithMe {
+  position: relative;
+  top: 102.33px;
+  background-color: gainsboro;
+}
+
+@media screen and (min-width: 768px) {
+  main .WorkWithMe {
+    width: 100%;
+    min-height: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+main .WorkWithMe-image {
+  width: 75%;
+}
+
+@media screen and (min-width: 768px) {
+  main .WorkWithMe-image {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+  }
+}
+
+main .WorkWithMe-image img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (min-width: 768px) {
+  main .WorkWithMe-image img {
+    width: 500px;
+    height: 640px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+main .WorkWithMe-header {
+  font-size: 54px;
+  font-family: "Bebas Neue", cursive;
+  color: #1a1a1a;
+  margin-top: 70px;
+  line-height: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  main .WorkWithMe-header {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    right: 5%;
+    margin-top: 0;
+  }
+  main .WorkWithMe-header h2 {
+    font-size: 220px;
+    line-height: 220px;
+    font-weight: normal;
+  }
+  main .WorkWithMe-header-second {
+    display: block;
+  }
+  main .WorkWithMe-header-third {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+  }
+}
+
+main .WorkWithMe-paragraph {
+  line-height: 28.8px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  main .WorkWithMe-paragraph {
+    position: absolute;
+    right: 80px;
+    bottom: 120px;
+    width: 325px;
+  }
+}
+
+main .WorkWithMe-link {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  main .WorkWithMe-link {
+    margin-top: 0;
+    position: absolute;
+    bottom: 0;
+    right: 250px;
+  }
+}
+
+main .WorkWithMe-link a {
+  font-size: 32px;
+  font-family: "Bebas Neue", cursive;
+  color: #9cb4b3;
+}
+
+@media screen and (min-width: 768px) {
+  main .WorkWithMe-link a {
+    font-size: 48px;
+  }
+}
+
+main .WorkWithMe-link a:hover {
+  color: #88a09f;
+}
+
+main .WorkWithMe-square {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  main .WorkWithMe-square {
+    width: 4%;
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */
